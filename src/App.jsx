@@ -7,8 +7,10 @@ import Eyes from './components/eyes';
 import Feature from './components/feature';
 import Cards from './components/cards';
 import Footer from './components/footer';
+import LocomotiveScroll from 'locomotive-scroll';
 
 function App() {
+  const scroll = new LocomotiveScroll();
   return (
     <div className='w-full min-h-screen text-zinc'>
       <Navbar />
