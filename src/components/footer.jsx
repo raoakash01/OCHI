@@ -1,7 +1,9 @@
+import { motion } from "framer-motion"
 import React from "react"
 function Footer() {
+    motion
     return(
-    <div className="w-full h-screen bg-zinc-100 px-10 py-20 flex">
+    <div className="data-scroll data-scroll-section data-scroll-speed='.1'  w-full h-screen bg-zinc-100 px-10 py-20 flex">
         <div className="w-1/2 h-full font-['Founders Grotesk'] flex flex-col justify-between">
             <div className="heading">
             <h1 className="text-[7vw] font-semibold uppercase leading-none -mb-5">EYE-</h1>

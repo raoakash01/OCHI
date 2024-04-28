@@ -1,8 +1,10 @@
+import { motion } from 'framer-motion'
 import React from 'react'
 
 function cards() {
+  motion
   return (
-    <div className='w-full h-screen flex gap-5 px-20 items-center'>
+    <div className='stick data-scroll data-scroll-speed="-.7" w-full h-screen flex gap-5 px-20 items-center'>
         <div className='cardcontainer h-[50vh] w-1/2'>
             <div className="card relative  w-full h-full  bg-[#004D43] flex items-center justify-center">
               <img className='w-32' src='/img/logo001.svg'></img>

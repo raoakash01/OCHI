@@ -7,6 +7,7 @@ import Eyes from './components/eyes';
 import Feature from './components/feature';
 import Cards from './components/cards';
 import Footer from './components/footer';
+import Ready from './components/ready'
 import LocomotiveScroll from 'locomotive-scroll';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Eyes />
       <Feature />
       <Cards />
+      <Ready/>
       <Footer/>
     </div> 
   )
